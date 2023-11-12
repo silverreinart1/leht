@@ -2,6 +2,7 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  font-family: "Urbanist";
 }
 
 body {
@@ -15,7 +16,8 @@ body {
   font-size: 25px;
 }
 
-.header-container {
+
+.main {
   width: 100%;
   display: flex;
   justify-content: space-between;
@@ -30,7 +32,7 @@ body {
   text-decoration: none;
 }
 
-.header-container2 {
+.main2 {
   width: 30%;
   height: -moz-fit-content;
   height: fit-content;
@@ -56,7 +58,7 @@ button:hover {
   width: 30%;
 }
 
-.container {
+.lehepea {
   margin: 100px auto 0;
   width: 100%;
   display: flex;
@@ -73,25 +75,26 @@ button:hover {
   padding-top: 10px;
 }
 
-.section-header {
+.header {
   height: 200px;
   padding: 40px 0 0;
   color: white;
   text-align: center;
   margin-bottom: 40px;
   font-weight: 600;
+  color:#42006a;
 }
 .section-header p {
   font-weight: 700;
-  color: #FF3BFF;
+  color: #42006a;
   font-size: 24px;
 }
 .section-header h1 {
   font-size: 60px;
 }
 
-.title-gradient {
-  background: linear-gradient(90.01deg, #4E4BE4 24.42%, #E862FE 73.78%);
+.lehetitle {
+  color: #42006a;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
@@ -105,7 +108,7 @@ h1 {
   font-size: 32px;
 }
 
-.section-benefits {
+.lehevahe {
   display: flex;
   justify-content: space-between;
   color: white;
@@ -120,32 +123,33 @@ h1 {
   width: 40%;
 }
 
-.container-title {
+.lehttitlekast {
   margin-bottom: 40px;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: space-between;
+  color: #42006a;
 }
 
-.p-small {
+.textmini {
   font-size: 16px;
 }
 
-.benefits-items {
+.leheitems {
   background-color: #181924;
   border-radius: 16px;
   padding: 32px;
 }
 
-.divider {
+.vahe {
   width: 100%;
   border-bottom: 1px solid white;
   opacity: 0.12;
   margin: 20px 0;
 }
 
-.benefits-item {
+.leheitem {
   display: flex;
   align-items: flex-start;
   gap: 10px;
@@ -156,7 +160,7 @@ h3 {
   margin-bottom: 15px;
 }
 
-.prorec-card {
+.lehecard {
   width: 45%;
   background-color: #181924;
   border-radius: 40px;
@@ -184,7 +188,7 @@ h3 {
   font-size: 22px;
 }
 
-.prorec-upper {
+.leheup {
   display: flex;
   justify-content: space-between;
   width: 70%;
@@ -192,7 +196,7 @@ h3 {
   padding: 0 120px;
 }
 
-.prorec-lower {
+.lehelow {
   margin-top: 50px;
   width: 55%;
 }
@@ -223,52 +227,52 @@ h3 {
   flex-direction: row-reverse;
 }
 
-.testimonials {
+.lehetest {
   display: flex;
   justify-content: space-between;
 }
 
-.testimonial-card {
+.lehetest-card {
   width: 30%;
   background-color: #181924;
   border-radius: 30px;
   padding: 32px;
 }
-.testimonial-card > div {
+.lehetest-card > div {
   display: flex;
   justify-content: space-between;
   align-items: center;
   margin-top: 100px;
 }
-.testimonial-card > div img {
+.lehetest-card > div img {
   height: -moz-max-content;
   height: max-content;
 }
 
-.reviewer {
+.authorm {
   display: flex;
   gap: 10px;
   align-items: center;
 }
 
-.expert-container {
+.expert-lehepea {
   display: flex;
   justify-content: space-between;
   color: white;
   gap: 70px;
 }
-.expert-container div {
+.expert-lehepea div {
   width: 600px;
   padding: 50px 0;
 }
-.expert-container button {
+.expert-lehepea button {
   margin-top: 30px;
   width: 180px;
   height: 40px;
   padding: 16px, 24px, 16px, 24px;
 }
 
-.plans-card {
+.leheplancard {
   width: 30%;
   background-color: #26232C;
   border-radius: 32px;
@@ -279,11 +283,11 @@ h3 {
   align-items: center;
   gap: 20px;
 }
-.plans-card > p {
+.leheplancard > p {
   font-size: 24px;
   margin-top: -30px;
 }
-.plans-card .divider {
+.leheplancard .divider {
   width: 80%;
 }
 
@@ -293,18 +297,18 @@ h3 {
   font-size: 12px;
 }
 
-.plans-panel {
+.lehepanel {
   width: 80%;
   display: flex;
   justify-content: space-between;
 }
 
-.plans-info {
+.leheplaninfo {
   display: flex;
   gap: 10px;
   align-items: center;
 }
-.plans-info:last-of-type {
+.leheplaninfo:last-of-type {
   margin-bottom: 30px;
 }
 
@@ -414,4 +418,11 @@ footer > h1 {
 
 .branding {
   border: 1px solid red;
+}
+
+.align-middle{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 600px;
 }
